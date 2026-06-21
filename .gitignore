@@ -1,0 +1,20 @@
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# SQLite Database Cache (optional, but good practice since users can rebuild it)
+# We can keep it ignored, or commit it if we want it to work out-of-the-box.
+# Let's ignore it to keep repository clean.
+opendota_cache.db
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+
+# IDE files
+.vscode/
+.idea/
+.agents/
